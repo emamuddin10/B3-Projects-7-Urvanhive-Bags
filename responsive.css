@@ -1,0 +1,19 @@
+/* header section style  */
+
+@media screen and (max-width:576px){
+    .nav-container, .logo-container, .menus-container{
+       flex-direction: column;
+    }
+    .menus-container{
+        /* text-align: center; */
+        align-items: center;
+        width: 100%;
+    }
+    .menus-container a{
+        margin-top: 15px;
+    
+    }
+    .menus-container .btn-login{
+        width: 100%;
+        margin-top: 15px;
+    }
