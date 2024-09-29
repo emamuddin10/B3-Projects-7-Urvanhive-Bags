@@ -1,19 +1,56 @@
 /* header section style  */
 
-@media screen and (max-width:576px){
-    .nav-container, .logo-container, .menus-container{
-       flex-direction: column;
+@media screen and (max-width:576px) {
+
+    .nav-container,
+    .logo-container,
+    .menus-container,
+    .banner,
+    .card-container {
+        flex-direction: column;
     }
-    .menus-container{
+
+    .menus-container {
         /* text-align: center; */
         align-items: center;
         width: 100%;
     }
-    .menus-container a{
+
+    .menus-container a {
         margin-top: 15px;
-    
+
     }
-    .menus-container .btn-login{
+
+    .menus-container .btn-login {
         width: 100%;
         margin-top: 15px;
     }
+
+    /* resposive banner part/////////////////////////////////////////////////////////// */
+    .banner-heading,
+    .banner-title {
+        font-size: 30px;
+        font-weight: 900;
+
+    }
+
+    .banner-img,
+    .banner-content {
+        width: 100%;
+    }
+
+/* card */
+.card-container{
+    padding: 0px 20px;
+}
+
+/* members  */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px;
+    margin-left:50px;
+    margin-top: 30px;
+    align-content: center;
+ }
+}

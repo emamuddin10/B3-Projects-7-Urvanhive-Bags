@@ -7,6 +7,10 @@
 :root{
     --primary-color:#9376e0;
     --secondary-color:#E893CF;
+    --bg-custom:#e6e9eb;
+}
+section{
+    margin: 100px 0px;
 }
 nav{
     background-color: var(--primary-color);
@@ -59,4 +63,100 @@ h3{
     margin-left: 5px;
 }
 
+/* banner part/////////////////////////////////////////////////////////////////// */
+.banner{
+    max-width: 1240px;
+    margin:20px auto;
+    justify-content: space-between;
+    align-items: center;
+    
+    display: flex;
+    background-color: #e6e9eb;
+}
+.banner-content{
+    width:50%;
+    text-align: center;
+    line-height: 70px;
+    /* justify-content: center;
+    align-items: center; */
+}
+.banner-img{
+    width: 50%;
+}
+.b-img{
+    max-width: 95%;
+    margin: 10px;
+}
+.banner-heading{
+ font-size: 60px;
+ font-weight: 900;
+ background: linear-gradient(to bottom, var(--secondary-color),var(--primary-color));
+ color: transparent;
+ background-clip: text;
+ 
+}
+.banner-title{
+    font-size: 50px;
+ font-family: "Kaushan Script", cursive;
+}
+.btn-primary{
+    border: 2px solid #E893CF;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+main{
+    max-width: 1240px;
+    margin:0px auto;
+}
+/* product section */
+.bg-card{
+    background-color: #0019fd;
+    padding: 10px;
+    border-radius: 30px;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    display: flex;
+}
+.icon-container{
+    display: flex;
+    gap: 5px;
+}
+.product-flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.card-img{
+    width: 90%;
+}
+.card{
+    height: 500px;
+    width: 350px;
+    /* border: 1px solid red; */
+    background-color: #e6e9eb;border-radius: 10px;
+    padding: 0px 20px;
+    box-shadow: 0 2px 15px black;
+}
+/* card coantainer */
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px 0px;
+}
+
+/* member section
+ */
+ .member-img{
+    width: 100%;
+ }
+ .grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+ }
 
